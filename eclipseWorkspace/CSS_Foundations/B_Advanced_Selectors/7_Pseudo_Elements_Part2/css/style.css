@@ -16,3 +16,33 @@ a {
 
 /* Pseudo-elements */
 
+.phone::after {
+  content: "\2706";
+}
+
+.dload::before {
+  content: url(../img/pdf.png);
+  margin:  0 8px;
+}
+
+.dload::after {
+  content: attr(href);
+  padding-left: 10px;
+  font-size: 0.75em;
+  color: tomato;
+}
+
+.box::before,
+.box::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: royalblue;
+  border-radius: 50%;
+  margin: 15px 15px 0 15px;
+}
+
+.box {
+  border: 1px solid;
+}
