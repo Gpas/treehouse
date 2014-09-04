@@ -1,0 +1,33 @@
+
+hr {
+  background: lightblue;
+  padding: 10px;
+  border-style: none;
+  margin: 0 auto 0;
+  max-width: 100%;
+}
+
+
+body {
+  margin: 0;
+  background: #eee;
+}
+
+body > :not(hr):not(header) {
+  margin: 20px;
+}
+
+
+h1 {
+  background: lightblue;
+  margin: 0;
+  padding: 10px;
+}
+
+#space {
+  min-height: 40%;
+}
+
+html, body {
+  height: 100%;
+}
